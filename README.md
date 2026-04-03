@@ -1,2 +1,13 @@
-# trading-bot
-A command-line trading bot built in Python that simulates Market and Limit orders for BUY and SELL operations. Features include structured code design, input validation, error handling, and logging. Developed as part of an Internshala assignment.
+# Trading Bot (Fixed - Binance Futures Testnet)
+
+## Setup
+pip install -r requirements.txt
+
+Rename `.env.example` to `.env` and add your keys.
+
+## Run
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
+
+## Note
+Make sure you use Binance Futures Testnet keys only:
+https://testnet.binancefuture.com

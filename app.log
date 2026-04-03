@@ -1,0 +1,6 @@
+2026-04-03 12:09:08,917 - INFO - Request: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity=0.001, price=None)
+2026-04-03 12:09:08,918 - ERROR - API Secret required for private endpoints
+2026-04-03 12:11:09,596 - INFO - Request: Namespace(symbol='BTCUSDT', side='BUY', type='MARKET', quantity=0.001, price=None)
+2026-04-03 12:11:09,597 - INFO - Response: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'status': 'FILLED', 'message': 'Simulated market order executed successfully'}
+2026-04-03 12:12:03,884 - INFO - Request: Namespace(symbol='BTCUSDT', side='SELL', type='LIMIT', quantity=0.001, price=60000.0)
+2026-04-03 12:12:03,885 - INFO - Response: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 60000.0, 'status': 'OPEN', 'message': 'Simulated limit order placed successfully'}
